@@ -1,0 +1,8 @@
+{% for b in book %}
+
+{{b.as_p}}
+
+{% endfor %}
+
+<a href='/createbook/'>Create a book</a>
+<a href='/profile/{{ user.id }}/'>Profile</a>
